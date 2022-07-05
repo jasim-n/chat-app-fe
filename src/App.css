@@ -1,0 +1,219 @@
+.leftsidebarinnerbox6{
+  position: absolute;
+  bottom:6vh
+}
+.leftsidebarinnerbox1{
+  margin-top: 3vh;
+}
+.leftsidebarmenubox{
+  margin-top: 10vh;
+}
+.mrtl{
+  margin-bottom: 3vh;
+ 
+}
+.leftsidebarinnerbox6typo{
+  font-size: 12px !important;
+}
+
+.bdg 	.MuiBadge-badge{
+  left: 68px;
+  top: 13px;
+}
+.chatlogsearchicon{
+margin-left: 140px !important;
+}
+.chatlogindexs{
+  font-size: 13px !important;
+}
+.chatlogindexs1{
+  margin-left: 29px !important;
+}
+.chatlogindexsm{
+  width: max-content !important;
+}
+.groupchatin{
+  line-height: 0px !important;
+
+}
+.groupchat{
+  margin-top: 11vh;
+}
+.groupchatins p {
+margin-top: 3px ;
+font-size: 14px ;
+}
+.groupchatdata,.personalchatdata{
+  margin-bottom: 17px;
+  margin-left: 12px;
+}
+
+
+.groupimg1 ,.groupimg2 , .groupimg3{
+  position: absolute;
+}
+.groupimg1{
+  z-index: 2;
+}
+.groupimg2{
+  z-index: 3;
+  top: -31px;
+  left: 13px;
+}
+.groupimg3{
+  z-index: 4;
+  top: -71px;
+    left: -17px;
+}
+.groupimg{
+  max-height: 2rem;
+}
+.chatlogmainh{overflow: hidden;}
+.chatlogmain{
+  overflow-y: scroll;
+  max-height: 94vh;
+  overflow-x: hidden;
+  margin-top: 2vh;
+  
+  margin-left: -2px !important;
+}
+.chatlogmain::-webkit-scrollbar {
+  display: none;
+}
+.chatlogcolor{background-color: blueviolet !important;
+}
+.chatlogcolordark{background-color: #8b8b8b !important;
+}
+.chatlogheading{
+  position:fixed;
+  z-index:10;
+}
+.chatlogpaper{
+width: 74%;
+padding-left: 10px !important;
+  
+}
+.uidesign{
+  z-index: 10;
+  margin-top: 2rem;
+}
+.Chattingareaheadingside{
+  margin-top: 2rem;
+  display: flex !important;
+  align-self: flex-end !important;
+}
+.badge 	.MuiBadge-colorSecondary{
+ 
+  background-color: red;
+  TOP:17PX;
+  right: 6px;
+}
+.bggrey{
+  background: #f4f4fa;
+  padding: .5vh;
+  margin: 14px 7px 0px 17px;
+  border-radius: 20%;
+}
+.avatarrightblock{
+  display: flex;
+  margin-top: 1rem !important;
+}
+.avt{
+  top:36px;
+}
+.chatblockstyle{
+  background-color: blue;
+  max-width: max-content;
+  padding-top: 1rem;
+  width: 50%;
+  padding: 1rem;
+ 
+
+}
+.chatblockstylesend{
+  border-bottom-left-radius:2rem;
+}
+.chatblockstyleres{
+  border-bottom-right-radius:2rem;
+  margin-left: 1rem !important;
+}
+.chatblockstyle::before{
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-bottom-color: #ccc ;
+  border-top: 0px;
+  position: absolute;
+  top: -10px;
+}
+.avtinsnd{
+  text-align: left !important;
+}
+.avatarinner{
+  background-color:  #f4f4fa;
+  max-height: 1.5rem;
+  padding-right: -2vh;
+  margin-left: -.5rem;
+  border-radius: 0 100% 97% 0;
+    margin-top: 0.6rem;
+    padding: 0px 20px 25px 11px;
+}
+.avtinsnd {
+  margin-right: 9vh !important;
+}
+.sendingfield{
+  width: 100% !important;
+}
+.senderborder{
+  border:1px solid black ;
+border-bottom-left-radius: 30px;
+border-top-left-radius: 30px;
+border-bottom-right-radius: 30px;
+border-top-right-radius: 30px;
+}
+.sendermicbtn{
+  top:11px
+}
+.Chatsender .MuiFormControl-root .MuiInputLabel-shrink{
+display: none;
+}
+
+.Chatsender .MuiFormControl-root span
+{display: none !important;}
+.sendingfield .MuiInput-root::before{
+  display: none !important;
+}
+.sendingfield .MuiInput-root::after{
+  display: none !important;
+}
+.sendingfield .MuiFormControl-root{
+  top:20px !important;
+}
+.sendingfield label{top:4px}
+.MuiFormControl-root.MuiTextField-root.sendingfield.css-1u3bzj6-MuiFormControl-root-MuiTextField-root{ top:-5px !important;}
+.MuiInput-root.MuiInput-underline.MuiInputBase-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.css-1ptx2yq-MuiInputBase-root-MuiInput-root{top:3px !important}
+.Chatsender{
+  position:fixed;
+    bottom:5%;
+    
+
+}
+.btnsender{
+  background-color: aqua;
+  border-radius: 50%;
+}
+/* 
+css trial for chat  */
+
+.discussion {
+	max-width: 600px;
+	margin: 0 auto;
+	/* overflow-y: scroll;
+  max-height: 80.5vh !important; */
+	display: flex;
+	flex-flow: column wrap;
+}
+
+
