@@ -36,8 +36,9 @@ function App() {
     console.log(socket.id);
   });
   const [dark, setdark] = useState(1);
+  const [displayid,setDisplayid]=useState("");
   return (
-    <ThemeContext.Provider value={{ dark, setdark }}>
+    <ThemeContext.Provider value={{ dark, setdark, displayid, setDisplayid }}>
       <Router>
         <Routes>
           <Route path="/" element={<SignIn />} />

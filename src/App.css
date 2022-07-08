@@ -37,7 +37,11 @@ margin-left: 140px !important;
 
 }
 .groupchat{
-  margin-top: 11vh;
+  /* margin-top: 11vh; */
+}
+#simple-tabpanel-0 .MuiBox-root{
+  padding: 0;
+  padding: top 2rem !important;
 }
 .groupchatins p {
 margin-top: 3px ;

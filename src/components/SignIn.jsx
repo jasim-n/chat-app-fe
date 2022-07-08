@@ -18,6 +18,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { addDetails } from "../features/user/user";
 import API from "../api";
 import Cookies from "js-cookie";
+import { Paper } from "@mui/material";
 
 function Copyright(props) {
   return (
@@ -37,6 +38,15 @@ function Copyright(props) {
   );
 }
 
+function loginer() {
+  return (
+    <Grid className="loginergrid">
+      <Paper className="logingridpaper" elevation={4}>
+        login failed
+      </Paper>
+    </Grid>
+  );
+}
 const theme = createTheme();
 
 export default function SignIn() {
@@ -45,6 +55,7 @@ export default function SignIn() {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [password, setPassword] = useState("");
+  const [tr, settr] = useState(false);
 
   const user = useSelector((state) => state.logged);
 
@@ -53,7 +64,7 @@ export default function SignIn() {
     const formData = { mobile_number: phone, password: password };
     //checking the login data
     const data = await API.post("/api/users/login", formData);
-    console.log(data);
+    Cookies.set("myCookie", data.data.token);
     // dispatch(
     //   addDetails({
     //     id: data._id,
@@ -120,6 +131,8 @@ export default function SignIn() {
                 setPassword(e.target.value);
               }}
             />
+            {tr && loginer}
+
             <FormControlLabel
               control={<Checkbox value="remember" color="primary" />}
               label="Remember me"
